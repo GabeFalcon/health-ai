@@ -58,7 +58,7 @@ function ChatBox({ intakeData, onLogout }) {
   }, [darkMode]);
 
   useEffect(() => {
-    loadGoogleMapsScript("AIzaSyDVERlgXTaFbBcZPNgMfwV1V3JJcrrhp-s").then(() => {
+    loadGoogleMapsScript(process.env.REACT_APP_GOOGLE_MAPS_API_KEY).then(() => {
       if (!window.google || !window.google.maps) return;
 
       navigator.geolocation.getCurrentPosition(
