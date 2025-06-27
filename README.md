@@ -49,3 +49,8 @@ You will need to set the following in your `.env` files:
 ### Frontend (`frontend/.env`)
 ```env
 REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+
+## 🦠 Current Bugs
+- Light mode will make it so you can't see pin info on the map (fix coming soon)
+
+
