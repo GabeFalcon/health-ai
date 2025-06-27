@@ -14,8 +14,8 @@ Coming soon (free hosting via Firebase or Render)
 
 ## 📸 Screenshots
 
-![Chat Interface](./screenshots/screenshot1.png)
-![Map with Providers](./screenshots/screenshot2.png)
+![Chat Interface](./screenshots/Screenshot1.png)
+![Map with Providers](./screenshots/Screenshot2.png)
 
 ---
 
