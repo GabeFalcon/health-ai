@@ -1,0 +1,95 @@
+:root {
+  --bg: #f8fdfd;
+  --text: #000;
+  --form-bg: #ffffff;
+  --input-bg: #ffffff;
+  --input-border: #c2e4e2;
+  --button-bg: #2ca4ab;
+  --button-hover: #258a91;
+}
+
+.dark-mode {
+  --bg: #121c1d;
+  --text: #e0f7f7;
+  --form-bg: #1a2e2e;
+  --input-bg: #0f1b1b;
+  --input-border: #2a4f4f;
+  --button-bg: #1b6b6e;
+  --button-hover: #137074;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-container {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: var(--form-bg);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 128, 128, 0.15);
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-header h2 {
+  margin: 0;
+}
+
+.home-header button {
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home-header button:hover {
+  background-color: var(--button-hover);
+}
+
+form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 0.7rem;
+  border: 1px solid var(--input-border);
+  border-radius: 10px;
+  background-color: var(--input-bg);
+  color: var(--text);
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+button[type="submit"] {
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--button-hover);
+}

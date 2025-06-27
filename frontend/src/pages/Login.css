@@ -1,0 +1,51 @@
+:root {
+  --bg: #f8fdfd;
+  --text: #000;
+  --form-bg: #ffffff;
+  --button-bg: #2ca4ab;
+  --button-hover: #258a91;
+}
+
+.dark-mode {
+  --bg: #121c1d;
+  --text: #e0f7f7;
+  --form-bg: #1a2e2e;
+  --button-bg: #1b6b6e;
+  --button-hover: #137074;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  max-width: 500px;
+  margin: 8rem auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--form-bg);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 128, 128, 0.15);
+}
+
+.login-container h1 {
+  margin-bottom: 2rem;
+}
+
+.login-container button {
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: var(--button-hover);
+}
