@@ -8,7 +8,7 @@ load_dotenv()
 client = OpenAI()
 
 app = Flask(__name__)
-CORS(app)  # Allow React frontend to connect
+CORS(app, origins=["https://yourhealthai.netlify.app/"])  # Allow React frontend to connect
 
 OpenAI.api_key = os.environ.get("OPENAI_API_KEY")
 
