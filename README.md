@@ -8,7 +8,7 @@ This project was built as a personal learning experience, with the goals of mast
 
 ## 🌐 Live Demo
 
-Coming soon (free hosting via Firebase or Render)
+https://yourhealthai.netlify.app/
 
 ---
 
